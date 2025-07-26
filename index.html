@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZAKARIA'S PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo image.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header" class="home">Home</a></li>
+                    <li><a href="#about" class="about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                   <i class="bi bi-x"onclick="closemenu()"></i>       
+                </ul>
+                <i class="bi bi-list"onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <div id="header-text">
+            <div class="text-section">
+            <p>A FULL STACK WEB DEVELOPER.</p>
+            <h1>HI, I'M <span>ZAKARIA</span><br> FROM KENYA.</h1>
+        </div>
+        </div>
+<!-- About section-->
+
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/background image 2.webp">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle"> About me.</h1>
+                    <p>I am a full stack web developer who has 2 years of experience in creating intuitive, breathtaking websites.I love solving complex problems through clean design, collaboration, and a dash of creativity.</p>
+                
+                <div class="tabtitles">
+                    <p class="tab-links active-link" onclick="opentab('skills')" >SKILLS.</p>
+                    <p class="tab-links"onclick="opentab('experience')">EXPERIENCE.</a></p>
+                    <p  class="tab-links"onclick="opentab('education')">EDUCATION.</a></p>
+                
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces.</li>
+                        <li><span>WEB DEVELOPMENT</span><br>Web App Development.</li>
+                        <li><span>APP DEVELOPMENT</span><br>Building IOS/Android app.</li>
+                    </ul>
+                
+                </div>   
+                 <div class="tab-contents " id="experience">
+                    <ul>
+                        <li><span>2024 - Current</span><br>UI/UX Design Training at IST institution.</li>
+                        <li><span>2023 - 2024</span><br>Web Development Internship at Tech Solutions.</li>
+                    </ul>
+ 
+
+                
+                </div>   
+                 <div class="tab-contents" id="education">
+                    <ul>
+                         <li><span>2024</span><br>UI/UX Design Training at IST institution</li>
+                        <li><span>2025</span><br>Acquiring Bachelors degree in IT</li>
+                         
+                    </ul>
+                
+                </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services section -->
+     <div id="services">
+        <div class="container">
+             <h1 class="sub-title">My Services.</h1>
+             <div class="services-list">
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" font-size="50" margin-bottom="30"  class="bi bi-code-slash" viewBox="0 0 16 16">
+  <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
+</svg>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" font-size="50" margin-bottom="30" class="bi bi-crop" viewBox="0 0 16 16">
+  <path d="M3.5.5A.5.5 0 0 1 4 1v13h13a.5.5 0 0 1 0 1h-2v2a.5.5 0 0 1-1 0v-2H3.5a.5.5 0 0 1-.5-.5V4H1a.5.5 0 0 1 0-1h2V1a.5.5 0 0 1 .5-.5m2.5 3a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4H6.5a.5.5 0 0 1-.5-.5"/>
+</svg>
+                <h2>UI/UX design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" font-size="50" margin-bottom="30" class="bi bi-google-play" viewBox="0 0 16 16">
+  <path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055zM1 13.396V2.603L6.846 8zM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27"/>
+</svg>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#">Learn more</a>
+            </div>
+             </div>
+            
+               
+        </div>
+     </div>
+    <!-- portfolio/project section -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work.</h1>
+            <div class="work-list">
+                
+                <div class="work">
+                    <img src="Images/work image 1.jpeg" >
+                    <div class="layer">
+                        <h2>Social Media Apps</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+  <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+</svg></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="Images/work image 2.webp" >
+                    <div class="layer">
+                        <h2>Music App</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+  <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+</svg></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="Images/work image 3.webp" >
+                    <div class="layer">
+                        <h2>Building E-commerce site.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+  <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+</svg></a>
+                    </div>
+
+                </div>
+            </div>
+            <a href="#" class="btn">See more.</a>
+
+        </div>
+     </div>
+     <!-- contact section -->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="bi bi-envelope-at-fill"></i>contact@example.com</p>
+                    <p><i class="bi bi-telephone"></i>0712345678</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="bi bi-facebook"></i></a>
+                        <a href="https://instagram.com"><i class="bi bi-instagram"></i></a>
+                        <a href="https://x.com"><i class="bi bi-twitter-x"></i></a>
+                        <a href="https://whatsapp.com"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                    <a href="Images/shortcut keyboard.docx" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name"placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea rows="5" name="Message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Send Message</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>© 2024 Zakaria's Portfolio. All rights reserved.</p>
+            <p>Designed by Zakaria<i class="bi bi-heart-fill"></i>.</p>
+        </div>
+      </div>
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+  const scriptURL =' https://script.google.com/macros/s/AKfycbxUg2BKXWxab9xLmRRmw9WqNQXE3EvjvCG1bjANPckGILbiSmtkY0P8y8q5oBTSUTAx0Q/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg= document.getElementById("msg");
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully!";
+        setTimeout(function(){
+            msg.innerHTML="";
+        },5000);
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
